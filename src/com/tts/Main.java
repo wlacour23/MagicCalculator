@@ -37,6 +37,9 @@ public class Main {
         System.out.println(Calculator.Cosin.cosinNum(6));
         System.out.println(Calculator.Tangent.tanNum(6));
         System.out.println(Calculator.Factorial.facNum(6));
+        System.out.println(Calculator.Pi.piNum(6));
+        System.out.println(Calculator.Log.logNum(6));
+        System.out.println(Calculator.Ln.lnNum(6));
 
     }
 }

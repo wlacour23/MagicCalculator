@@ -320,4 +320,45 @@ public class Calculator {
             return res;
         }
     }
+    public static class Pi {
+        public double int1;
+
+        public Pi() {
+        }
+        ;
+
+        public Pi(double int1) {
+            this.int1 = int1;
+        }
+
+        public double getInt1() {
+            return int1;
+        }
+
+        public void setInt1(double int1) {
+            this.int1 = int1;
+        }
+
+        public static double piNum(double int1) {
+            double res = int1 * 3.14159265358979323846;
+            return res;
+        }
+
+
+
+    }
+
+    public static class Log{
+        public static double logNum(double int1) {
+            double res = Math.log(int1);
+            return res;
+        }
+    }
+
+    public static class Ln {
+        public static double lnNum(double int1){
+            double res = Math.log(int1);
+            return res;
+        }
+    }
 }
